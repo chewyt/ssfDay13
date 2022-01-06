@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- <link href="bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+
+            <div class="col-md-6 bordertop">
+                <h3 class="text-left">Contact details</h3>
+                <hr>
+                <div class="row">
+                    <label for="" class="label control-label col-md-1">ID</label>
+                    <div class="col-md-10">
+                        <p th:text=${id} class="data-fields">hi</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="" class="label control-label col-md-1">Name</label>
+                    <div class="col-md-10">
+                        <p th:text=${name} class="data-fields">hi</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="" class="label control-label col-md-1">Email</label>
+                    <div class="col-md-10">
+                        <p th:text=${email} class="data-fields">hi</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="" class="label control-label col-md-1">Mobile</label>
+                    <div class="col-md-10">
+                        <p th:text=${mobile} class="data-fields">hi</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div> -->
+</body>
+
+</html>

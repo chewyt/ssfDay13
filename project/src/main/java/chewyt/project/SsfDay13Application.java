@@ -9,6 +9,8 @@ import java.nio.file.Paths;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import chewyt.project.controller.Contact;
+
 @SpringBootApplication
 public class SsfDay13Application {
 
@@ -59,6 +61,8 @@ public class SsfDay13Application {
 			System.out.printf("Loading existing Folder directory %s....", dir);
 		}
 
+		Contact.path = dir;
+		
 		app.run(args);
 	}
 
